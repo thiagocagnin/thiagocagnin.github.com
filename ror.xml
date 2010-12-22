@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://thiagocagnin.github.com/</title>
+  <link>http://thiagocagnin.github.com/</link>
+
+<item>
+     <link>http://thiagocagnin.github.com/</link>
+     <title>Thiago Cagnin Rodrigues - Curriculum Vitae</title>
+     <description>Curriculum Thiago Cagnin Rodrigues Programador Pato Branco Paraná</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://thiagocagnin.github.com/pt-BR/index.html</link>
+     <title>Thiago Cagnin Rodrigues - Curriculum Vitae</title>
+     <description>Curriculum Thiago Cagnin Rodrigues Programador Pato Branco Paraná</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://thiagocagnin.github.com/en-EUA/index.html</link>
+     <title>Thiago Cagnin Rodrigues - Curriculum Vitae</title>
+     <description>Curriculum Thiago Cagnin Rodrigues Featured Developer Pato Branco Paraná Brazil</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
