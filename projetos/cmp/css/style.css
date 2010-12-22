@@ -44,13 +44,14 @@ ul.menu > li > a{
     height:100px;
     margin-top:20px;
     text-align:center;
+    font-weight: bold;
     line-height:50px;
-    color:#ddd;
+    color:#FFF;
     background-color:#000;
     letter-spacing:8px;
     cursor:pointer;
     text-decoration:none;
-    text-shadow:0px 0px 4px #fff;
+    text-shadow:0px 0px 10px #fff;
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
