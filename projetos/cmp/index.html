@@ -16,6 +16,11 @@
         <script type="text/javascript" src="js/jquery.bgpos.js"></script>
         <script type='text/javascript' src='js/queryLoader.js'></script>
 
+        <script type='text/javascript'>
+            QueryLoader.selectorPreload = "body";
+            QueryLoader.init();
+        </script>
+
     </head>
 
     <body>
@@ -59,10 +64,6 @@
         </div>
 
         <script type="text/javascript">
-            
-            QueryLoader.selectorPreload = "body";
-            QueryLoader.init();
-
             $(function() {
                 /* position of the <li> that is currently shown */
                 var current = 0;
