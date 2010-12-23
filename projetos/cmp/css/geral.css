@@ -9,3 +9,10 @@ body{
 div#content{
     background-color: black;
 }
+
+div#header{
+    background-color: black;
+    width: 100%;
+    height: 110px;
+    padding-top: 10px;
+}
