@@ -9,6 +9,48 @@
 
 <url>
   <loc>http://thiagocagnin.github.com/</loc>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-vila.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-sao-joao.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-marcelao.JPG</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-maysa-oliveira.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-vila-2.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-maysa-oliveira-floripa.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-floripa.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-maysa-oliveira mush.JPG</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-maysa-oliveira 2.JPG</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-marlon-bertan.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-marlon-bertan 2.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-amigos.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-live-two.JPG</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-maysa-oliveira 3.jpg</image:loc>
+   </image:image>
   <image:image>
      <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-rodrigues-bauhaus-1.jpg</image:loc>
    </image:image>
@@ -33,42 +75,54 @@
    <image:image>
      <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin.jpg</image:loc>
    </image:image>
-  <lastmod>2010-12-20T12:39:17+00:00</lastmod>
+  <lastmod>2013-03-12T12:39:17+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>1.0</priority>
 </url>
 <url>
   <loc>http://thiagocagnin.github.com/pt-BR/index.html</loc>
   <image:image>
-     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-rodrigues-bauhaus-1.jpg</image:loc>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-vila.jpg</image:loc>
    </image:image>
-   <image:image>
-     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-rodrigues-mata-nativa.jpg</image:loc>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-sao-joao.jpg</image:loc>
    </image:image>
-   <image:image>
-     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-rodrigues.jpg</image:loc>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-marcelao.JPG</image:loc>
    </image:image>
-   <image:image>
-     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-rodrigues-bauhaus-2.jpg</image:loc>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-maysa-oliveira.jpg</image:loc>
    </image:image>
-   <image:image>
-     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-rodrigues-bauhaus.jpg</image:loc>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-vila-2.jpg</image:loc>
    </image:image>
-   <image:image>
-     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-rodrigues-floripa.jpg</image:loc>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-maysa-oliveira-floripa.jpg</image:loc>
    </image:image>
-   <image:image>
-     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-rodrigues-bauhaus-floripa-aabb.jpg</image:loc>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-floripa.jpg</image:loc>
    </image:image>
-   <image:image>
-     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin.jpg</image:loc>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-maysa-oliveira mush.JPG</image:loc>
    </image:image>
-  <lastmod>2010-12-20T12:39:17+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>1.0</priority>
-</url>
-<url>
-  <loc>http://thiagocagnin.github.com/en-EUA/index.html</loc>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-maysa-oliveira 2.JPG</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-marlon-bertan.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-marlon-bertan 2.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-amigos.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-live-two.JPG</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-maysa-oliveira 3.jpg</image:loc>
+   </image:image>
   <image:image>
      <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-rodrigues-bauhaus-1.jpg</image:loc>
    </image:image>
@@ -93,7 +147,79 @@
    <image:image>
      <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin.jpg</image:loc>
    </image:image>
-  <lastmod>2010-12-20T12:39:17+00:00</lastmod>
+  <lastmod>2013-03-12T12:39:17+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>http://thiagocagnin.github.com/en-EUA/index.html</loc>
+  <image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-vila.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-sao-joao.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-marcelao.JPG</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-maysa-oliveira.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-vila-2.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-maysa-oliveira-floripa.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-floripa.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-maysa-oliveira mush.JPG</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-maysa-oliveira 2.JPG</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-marlon-bertan.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-marlon-bertan 2.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-amigos.jpg</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-live-two.JPG</image:loc>
+   </image:image>
+	<image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-maysa-oliveira 3.jpg</image:loc>
+   </image:image>
+  <image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-rodrigues-bauhaus-1.jpg</image:loc>
+   </image:image>
+   <image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-rodrigues-mata-nativa.jpg</image:loc>
+   </image:image>
+   <image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-rodrigues.jpg</image:loc>
+   </image:image>
+   <image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-rodrigues-bauhaus-2.jpg</image:loc>
+   </image:image>
+   <image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-rodrigues-bauhaus.jpg</image:loc>
+   </image:image>
+   <image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-rodrigues-floripa.jpg</image:loc>
+   </image:image>
+   <image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin-rodrigues-bauhaus-floripa-aabb.jpg</image:loc>
+   </image:image>
+   <image:image>
+     <image:loc>http://thiagocagnin.github.com/img/thiago-cagnin.jpg</image:loc>
+   </image:image>
+  <lastmod>2013-03-12T12:39:17+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>1.0</priority>
 </url>
