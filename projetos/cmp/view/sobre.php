@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+<title>CMP Móveis - Pagnocelli e Filho</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+        <meta content="marcenaria moveis pagnocelli moveis pato branco" name="description">
+		<link rel="shortcut icon" type="image/ico" href="../favicon.png" />
+
+        <link href="../css/geral.css" media="screen" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body class="static-pages">
+
+        <?php  include '../templates/header.php'; ?>
+        
+        </div>
+
+        <div id="page"><div class="inner">
+                <div class="contents clearfix">
+
+                    <div id="main">
+
+                        <h1>Sobre</h1>
+
+                        <p>Fundada em 1975, a fabrica de móveis (maior Shopping de Pato Branco).
+                            A Best Glasses é tem idéias inovadoras e se tornará líder no varejo eletrônico
+                            no Brasil para comercialização óculos de sol. Construímos uma marca forte e
+                            uma com todos os clientes satisfeitos. Para você que gosta, precisa e procura 
+                            óculos, a Best Glasses oferece praticidade e qualidade. O melhor site
+                            do ramo no Brasil. Viva essa experiência. Foi feito pensando em você. </p>
+
+                        <h2>Porque comprar conosco?</h2>
+
+                        <p>Best Glasses é a loja virtual com todo conhecimento e assistência técnica
+                            de uma ótica. Assim você pode escolher entre os modelos de óculos das
+                            marcas de sua preferência e comprar tranquilo. Vendemos apenas óculos
+                            originais e de qualidade, por isso escolhemos apenas marcas reconhecidas
+                            pelas óticas. Todos os produtos vendidos na Best Glasses são autorizados
+                            pelas suas respectivas marcas fabricantes. Nesta loja de óculos, você pode
+                            comprar óculos online e receber muito rápido em sua casa!
+                        </p>
+
+                       <h2>Questões ou quer conversar?</h2>
+
+                        <p>Nós gostamos de tirar suas dúvidas, e fazer amigos através do seu feedback. Use nosso <a href="contato.php">formulário de contato</a> para nos escrever.</p>
+
+                    </div>
+
+                    <hr class="space">
+
+                </div>
+                <div class="bottom">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container">
+
+        </div>
+
+        <?php include '../templates/footer.html'; ?>
