@@ -1,0 +1,102 @@
+*{
+	margin:0;
+	padding:0;
+	border: 0px none;
+	font-family:Helvetica,Helvetica,sans-serif;
+}
+ 
+body{
+	background-color:#f9f9f9;
+} 
+
+a{
+	text-decoration:none;
+	color:#000;
+}
+ 
+#conteudo{
+    width:1260px; 
+    margin:0 auto;
+	height:100%;
+	display:block;
+}
+
+#conteudo div{
+	width:1260px; 
+	margin:0 auto;
+}
+
+#cabecalho{
+    height:180px;
+}
+
+#cabecalho a#logo img{
+	margin:15px 0 0 75px;
+	float:left;
+}
+
+#cabecalho ul#menu{
+	float:left;
+	list-style:none;
+	margin: 0 0 0 75px;
+}
+
+#cabecalho ul#menu li{
+	float:left;	
+	margin-right:8px;
+}
+
+#cabecalho ul#menu li a{
+	width:130px;
+	height:30px;
+	float:left;
+	background-color:#eaeaea;
+	display:block;
+	text-align:center;
+	padding-top:115px;
+	font-weight:bold;
+	color:6d6d6d;
+	font-size:14px;
+}
+
+#cabecalho ul#menu li a:hover{
+	background-color:#d5d5d5;
+}
+
+#slider-holder{
+	width:1294px;
+	height:293px;
+}
+
+#corpo{
+	background-color:yellow; 
+    height:600px; 
+}
+
+#corpo div#corpo-topo{
+	width:1260px;
+	float:left;
+}
+
+#corpo div#corpo-topo div{
+	height:300px;
+	width:420px;
+	float:left;
+}
+
+#corpo div#corpo-topo div#topo-esq{
+	background-color:black;
+}
+
+#corpo div#corpo-topo div#topo-mei{
+	background-color:red;
+}
+
+#corpo div#corpo-topo div#topo-dir{
+	background-color:green;
+}
+
+#rodape	{
+	background-color:black;     
+    height:100px; 
+}
