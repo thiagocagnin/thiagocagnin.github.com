@@ -10,7 +10,7 @@
         <meta name="titulo" content="Thiago Cagnin Rodrigues Curriculum Featured Developer HTML PHP">
         <meta name="description" content="Curriculum Thiago Cagnin Rodrigues Featured Developer Pato Branco Paran&aacute; Brazil" />
         <meta name="keywords" content="Thiago Cagnin Rodrigues, Thiago Cagnin, Thiago, Cagnin, Rodrigues, Featured Developer, Curriculum, website, HTML, PHP, javascript, ruby, utfpr, Programming, job, hire, free lancer, datazip, xpert, flash, mysql, flex builder, netbeans" />
-
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script type="text/javascript">
 
             var _gaq = _gaq || [];
@@ -22,6 +22,48 @@
                 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
                 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
             })();
+			
+			$.fn.calculaIdade = function ( dataNascimento ) {
+              var hoje = new Date();
+              
+              var arrayData = dataNascimento.split("/");
+              
+              var retorno = "#ERR#";
+              
+              if (arrayData.length == 3) {
+                // Decompoem a data em array
+                var ano = parseInt( arrayData[2] );
+                var mes = parseInt( arrayData[1] );
+                var dia = parseInt( arrayData[0] );
+                
+                // Valida a data informada
+                if ( arrayData[0] > 31 || arrayData[1] > 12 ) {
+                 return retorno;
+                }  
+                
+                ano = ( ano.length == 2 ) ? ano += 1900 : ano;
+               
+                // Subtrai os anos das duas datas
+                var idade = ( hoje.getYear()+1900 ) - ano;
+               
+                // Subtrai os meses das duas datas
+                var meses = ( hoje.getMonth() + 1 ) - mes;
+                
+                // Se meses for menor que 0 entao nao cumpriu anos. Se for maior sim ja cumpriu
+                idade = ( meses < 0 ) ? idade - 1 : idade;    
+               
+                meses = ( meses < 0 ) ? meses + 12 : meses;      
+               
+                //retorno = ( idade + " a " + meses + " m" );  
+				retorno = ( idade );  
+			 }   
+              
+			  return retorno;
+			};
+			
+			jQuery(function($){
+				$('#idade').html( $().calculaIdade( "02/07/1989" ) );
+			});
 
         </script>
 
@@ -135,10 +177,6 @@
     <body>
         <div id="container">
 
-            <div id="idioma">
-                <img alt="English" src="../img/eua_min.png" title="English" width="24px" height="24px"/>
-            </div>
-
             <div id="foto">
                 <img alt="Thiago Cagnin Rodrigues" title="Thiago Cagnin Rodrigues" src="../img/thiago-cagnin-rodrigues.jpg"/>
                 <img alt="Thiago Cagnin Rodrigues Bauhaus" title="Thiago Cagnin Rodrigues Bauhaus" src="../img/thiago-cagnin-rodrigues-bauhaus.jpg"/>
@@ -156,12 +194,25 @@
                 </h1>
 
                 <div class="contato">
-                    <p>26, Single</p>
-                    <p>Avenue Tupi, 1997 - Apartment 506</p>
-                    <p>Center - Pato Branco, PR, Brazil.</p>
-                    <p>+55 46 9914-3794</p>
+                    <p><span id="idade"></span>, married</p>
+                    <p>Roaldo Carraro, 616 - Vila Isabel</p>
+                    <p>Pato Branco, PR, Brazil.</p>
+                    <p>+55 46 99914-3794</p>
                     <p>thiagocr.utfpr@gmail.com</p>
                 </div>
+            </div>
+
+			<div id="resumo_qualificacoes">
+                <h2>
+                    About
+                </h2>
+                
+				<ul>
+					<li>Software Development Team Lead, Tech Lead, Team Manager, Software Development Specialist, 
+						Java Specialist Post-Grad by UTFPR, MBA in People Management by Faculdade Mater Dei Delphi Developer, 
+						PHP, HTML, JavaScript, experienced in Relational Databases, currently working with SQL Server, Oracle, 
+						PostgreSQL and Firebird. Working in Software Development since 2006 and since 2011 with Public Health Sector in Brazil</li>
+                </ul>
             </div>
 
             <div id="resumo_qualificacoes">
@@ -169,21 +220,29 @@
                     Summary of Qualifications
                 </h2>
 
-                <ul>
+                <ul>							   
+					<li><strong>Technical Skills</strong></li>
                     <li>Software Web based development and / or desktop development;</li>
                     <li>Advanced database  management;</li>
                     <li>Work effectively alone or in groups;</li>
+					<li>Developing in Delphi 7, Delphi for .NET, Delphi XE and Delphi Tokyo since January / 2008;</li>
+					<li>Experience in Postgres 8.4 / 9.1 / 13, MySQL, Oracle 10g / 11g and Firebird 2.1 since August / 2010;</li>
+					<li>Experience in SQL Server (2000,2005,2008,2012) since December / 2007;</li>
+					<li>Experience with Object-Oriented Programming development</li>
+					<li>Experience in creating webservices with delphi (mvcframework, datasnap);</li>
                     <li>Experience in developing Web Service with Java since January /2014;</li>
                     <li>Developing MVC (Model, View, Controller) with PHP;</li>
                     <li>Developing PHP, CSS, HTML, AJAX and JS since September / 2009;</li>
-                    <li>Knowledgeable  in Angular JS and bootstrap;</li>
-                    <li>Developing in Delphi 7, Delphi for .NET and Delphi XE since January / 2008;</li>
-                    <li>Experience in SQL Server (2000,2005,2008,2012) since December / 2007;</li>
-                    <li>Experience in MySQL, Oracle 10g / 11g, Postgres 8.4 / 9.1 and Firebird 2.1 since August / 2010;</li>
-                    <li>(Delphi) Experience in creating reports with FastReport and QuickRepot;</li>
-                    <li>(JavaScript and CSS) Advanced knowledge of JQuery library and styling with CSS;</li>
-                    <li>(PHP) Intermediate developing  knowledge with Zend Framework;</li>
-                    <li>Degree in Systems Development and  Technology Analysis at the Federal Technological University of Paran√°.</li>
+                </ul>
+				</br>
+				<ul>
+					<li><strong>Manager Skills</strong></li>
+					<li>Project management and team management</li>
+                    <li>Experience in managing high-performance teams since 2016</li>
+					<li>Agile methods since 2014 such as kanban, scrum and squad</li>
+					<li>Technical leader</li>
+					<li>Quick decision making</li>
+					<li>Analysis and improvement of team performance</li>
                 </ul>
             </div>
 
@@ -193,9 +252,23 @@
                 </h2>
 
                 <div>
-                  <h4>Web  Development / Desktop - Position: Team Lead</h4>
-                  <p>Company: IDS Software and Consulting (<a href="http://www.ids.inf.br/" target="_blank">www.ids.inf.br</a>), Pato Branco, Paran√°. (August 2011 - currently)</p>
+				
+				  <h4>Development - Position: Senior Delphi Developer</h4>
+                    <p>Company: Softplan (<a href="https://www.softplan.com.br/" target="_blank">www.softplan.com.br/</a>), FlorianÛpolis, SC, Brazil. (August, 2017 - February,2018)</p>
+                    <ul>
+					    <p>Working with scrum methodology I receive the demands for changes / implementations together with the team. We technically analyze and implement the best possible level of usability and maintenance.</p>
+                        <li>Using Elastic Search for System Log Storage;</li>
+						<li>Using Rabbit MQ for queue management and faster integration processing</li>
+						<li>Using Delphi for client and server implementations of web services</li>
+						<li>Delphi programming for creating component packages</li>
+
+                    </ul>
+				
+				  <h4>Web  Development / Desktop - Position: Team Lead</h4>
+                  <p>Company: IDS Software and Consulting (<a href="http://www.ids.inf.br/" target="_blank">www.ids.inf.br</a>), Pato Branco, Paran·. (August 2011 - August 2018)</p>
                   <ul>
+					  <p>As leader of the Delphi Development Team, I manage the development of new activities to be implemented 
+					   and corrections in the system, and I help with questions regarding both the work tools and the development methods.</p>
                       <li><strong>Database:</strong></li>
                       <li>Implementation and maintenance of the database (Firebird, Oracle, Postgres and SQL Server);</li>
                       <li>Creation, maintenance and implementation of codes in TSQL and pgSQL;</li>
@@ -213,10 +286,12 @@
 
                       <br /><li><strong>Programming desktop:</strong></li>
                       <li>Application development in Delphi (Pascal script);</li>
-                      <li>Maintenance and implementation of WinSaude system (mainline enterprise system) developed in Delphi 7;</li>
+					  <li>Web services development in Delphi with mvcframework;</li>
+					  <li>Web application development in Delphi with unigui;</li>
+                      <li>Maintenance and implementation of applications (mainline enterprise system) developed in Delphi 7 and Delphi Tokyo;</li>
                       <li>Creating and maintaining reports using FastReport and QuickReport;</li>
                       <li>Delphi instructor in teaching new employees;</li>
-                  </ul>
+                  </ul>			
 
                     <h4>Web Development - Position: Systems Analyst</h4>
                     <p>Company: Datazip Sistemas, Pato Branco, PR, Brazil. (August, 2010 - August,2011)</p>
@@ -269,7 +344,7 @@
                 <div class="conhecimento">
                     <h3>Database:</h3>
                     <ul>
-                        <li>Microsoft SQL Server 2000/2005/2008/2012</li>
+                        <li>Microsoft SQL Server</li>
                         <li>Postgres</li>
                         <li>Oracle</li>
                         <li>MySQL</li>
@@ -280,7 +355,7 @@
                     <h3>Desktop Programming:</h3>
                     <ul class="menor">
                         <li>Java</li>
-                        <li>Delphi</li>
+                        <li>Delphi 7, Delphi Tokyo</li>
                         <li>C++</li>
                         <li>Pascal</li>
                     </ul>
@@ -305,16 +380,17 @@
 
                     <h3>Web Programming (Back-end):</h3>
                     <ul class="menor">
-                        <li>Java</li>
+                        <li>Delphi</li>
                         <li>PHP</li>
-                        <li>JSP</li>
-                        <li>Ruby</li>
+                        <li>Python</li>
+                        <li>Java</li>
                     </ul>
 
                     <h3>Methodologies:</h3>
                     <ul class="menor">
                         <li>Scrum</li>
-                        <li>Extreme Programming (Desenvolvimento Iterativo, Refatora&ccedil;&atilde;o)</li>
+                        <li>Kanban</li>
+						<li>Squad</li>
                     </ul>
                 </div>
                 <br style="clear: both" />
@@ -345,9 +421,8 @@
 
                 <div>
                     <ul>
-                        <li>English: Reading (Advanced), Writing (Intermediate), Conversation (Intermediate)</li>
-                        <li>Spanish: Reading (Intermediate), Writing (Basic), Conversation (Basic)</li>
-                        <li>Portuguese: Reading (fluent), Writing (fluent), Conversation (fluent)</li>
+                        <li>English: Basic)</li>
+                        <li>Portuguese: fluent</li>
                     </ul>
                 </div>
             </div>
